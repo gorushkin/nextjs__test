@@ -9,6 +9,7 @@
     "mock": "json-server --watch db.json -p 4200 -d 500"
   },
   "dependencies": {
+    "concurrently": "^6.0.0",
     "next": "10.1.2",
     "nextjs-progressbar": "0.0.8",
     "react": "17.0.2",
