@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start2": "next start",
+    "start": "concurrently \"next start\" \"json-server --watch db.json -p 4200 -d 500\"",
     "mock": "json-server --watch db.json -p 4200 -d 500"
   },
   "dependencies": {
